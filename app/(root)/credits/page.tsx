@@ -1,5 +1,6 @@
-import { SignedIn, auth } from "@clerk/nextjs";
+import { SignedIn } from "@clerk/nextjs";
 import Image from "next/image";
+import {auth} from  "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 
 import Header from "@/components/shared/Header";
